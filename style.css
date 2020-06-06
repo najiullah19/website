@@ -1,0 +1,199 @@
+.navbar {
+    background-color:blue!important ; 
+    
+}
+
+.nav-link{
+    font-size: large !important;
+    font-weight: bolder;
+    color: white !important;
+}
+
+.fa-shopping-cart{
+    font-size: 32px !important;
+}
+
+.fa-user{
+    font-size: 32px !important;
+}
+.fa-truck,.fa-headphones,.fa-book{
+    color: blue;
+    font-size: 40px !important;
+    margin-right: 30px;
+}
+.card1,.card2,.card3,.card4{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around   ;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-size: larger;
+    text-align: center;
+    color: darkblue;
+    margin-top: 20px;
+    text-shadow: 5px 3px 5px darkslateblue;
+}
+.newArrivals{
+    margin-top: 50px;
+}
+.card{
+    width: 200px;
+    height: auto !important;
+}
+
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: blue;
+}
+.para{
+    margin-right: 300px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.email{
+    background-color: darkslategray;
+    height: 100px;
+}
+
+.center{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.send{
+    background-color: chocolate;
+}
+.send:hover{
+    color: tomato;
+    background-color: blue;
+}
+
+.footer{
+    display: flex;
+    height: 500px;
+    background-color: darkslategray;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.my{
+  
+    margin-left: 60px;
+    color: white;
+}
+.myaccount{
+    
+    margin-left: 40px;
+    color: #ffffff;
+}
+
+.get{
+   
+    position: relative;
+    bottom: 183px;
+    margin-top: 10px;
+    margin-left: 450px;
+    color: white;
+    
+}
+.about{
+    
+    position: relative;
+   bottom: 180px;
+    margin-left: 450px;
+    color: white;
+   
+    
+}
+
+.service{
+    
+    position: relative;
+    bottom: 335px;
+    margin-left: 1000px;
+    color: white;
+}
+
+.return{
+    
+    position: relative;
+    bottom: 330px;
+    margin-left: 1000px;
+    color: white;
+    
+}
+.follow{ 
+    position: relative;
+    bottom: 250px;
+    color: white;
+    text-align: center;
+   
+}
+
+.fa-facebook,.fa-whatsapp,.fa-instagram{
+   
+    font-size: 150px !important; 
+    margin: 10px;
+  position: relative !important;
+  bottom: 200px;
+  left: 420px;
+  margin-left: 30px;
+  color: white !important;
+}
+.footer,.email{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 1020px){
+    .footer{
+        width: 900px;
+    }
+}
+@media screen and (max-width: 910px){
+    .footer{
+        width: 700px;
+    }
+}
+@media screen and (max-width: 510px){
+    .footer{
+        width: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .card1,.card2,.card3,.card4{
+        width: 100%;
+    }
+}
+
+
